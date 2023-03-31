@@ -23,7 +23,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Eduardo J Parra Astorga</a>
+        <a class="navbar-brand" href="#"
+          >Alumno: <strong>Eduardo J Parra Astorga</strong></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -54,16 +56,22 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="http://linkedin.com/in/eduardo-j-parra-astorga"
                   >LinkedIn</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">GitHub</a>
+                <a
+                  class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="https://ejpa0405.github.io/"
+                  >GitHub</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -72,8 +80,20 @@
                   Portafolio
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Iguana Page</a></li>
-                  <li><a class="dropdown-item" href="#">Cuppon</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://ejpa0405.github.io/desafio3/"
+                      >Iguana Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://ejpa0405.github.io/desafio4/"
+                      >Cuppon</a
+                    >
+                  </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
@@ -99,46 +119,142 @@
     <header id="Header-Section" class="text-light text-end py-5 mt-5">
       <div class="container">
         <div class="ms-auto col-12 col-md-7">
-          <h1 class="display-1 fw-bold my-5">
-            Trabajo Final - Desafiolatam <br />
-            Git y GitHub Colaborativo
-          </h1>
-          <h4>Alumno: <strong>Eduardo J Parra Astorga</strong></h4>
-          <p class="my-4 justify"></p>
-          <div class="mb-5 pb-5">
+          <!-- <h1 class="display-1 fw-bold my-5"> -->
+          <h1>Trabajo Final - Desafiolatam</h1>
+          <h2>Git y GitHub Colaborativo</h2>
+
+          <!-- <p class="my-4 justify"></p> -->
+
+          <!-- <div class="mb-5 pb-5">
             <button class="btn btn-lg btn-outline-info text-light me-4">
               Trabajos
             </button>
             <button class="btn btn-lg btn-info text-light">Contacto</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
-    <h2>Requerimientos</h2>
-    <p>
-      1. Desplegar el proyecto en Github Pages en donde el portafolio sea la
-      página principal. (3 Puntos) <br />
-      2. Construir el portafolio utilizando por lo menos 3 componentes y 5
-      clases de Bootstrap. (2 Puntos) <br />
-      3. Mostrar los desafíos anteriores con imágenes y enlaces a los
-      repositorios correspondientes. (3 Puntos) <br />
-      4. Forkear los proyectos de por lo menos 2 compañeros. (1 Punto) <br />
-      5. Hacer por lo menos 1 commit por cada proyecto forkeado. (1 Punto)
-      <br />
-      <br />
-      Consideraciones y recomendaciones <br />
-      Es posible también aportar a un proyecto vía un pull request, para
-      lograrlo, hay que hacer un fork del repositorio original, hacer los
-      cambios y subirlos en el repositorio forkeado y luego, desde la página del
-      repositorio en Github, hacer clic en pull request. Luego, llegará una
-      notificación al proyecto original para hacer un merge de esos cambios.
-      Esto debe hacerse adicionalmente (y no en lugar del punto 4 o 5) para
-      obtener el puntaje del desafío.
-    </p>
+    <section class="container text-center my-5">
+      <h2 class="fw-bold my-4">Acerca de mi</h2>
+
+      <p class="my-5 justify">
+        Profesional con estudios superiores en las áreas de Informática y
+        Administración, con capacidad para trabajar en distintas áreas de una
+        empresa, con gran capacidad de aprendizaje, responsabildad y
+        adaptabilidad a los cambios, trabajo en equipo y colaborativo.
+        <br />Actualmente Desarrollando el Curso de Introducción al Desarrollo
+        Web en la Academia DesafioLatam.
+      </p>
+    </section>
+    <section class="container text-light text-center my-5 bg-black">
+      <h2 class="fw-bold my-5 pt-5">Mis Trabajos en este Curso</h2>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/iguanapage2.png"
+              class="d-block w-100 mb-5"
+              alt="Iguana Page"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Iguana Page</h5>
+              <p>Desafio de Posicionamiento en CSS.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/cuppon.png"
+              class="d-block w-100"
+              alt="Cuppon"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cuppon</h5>
+              <p>Desafio en CSS y uso de Bootstrap.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">
+        Eduardo J Parra Astorga 2023. Todos los derechos reservados.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-    crossorigin="anonymous"
-  ></script>
+  <h2>Requerimientos</h2>
+  <p>
+    1. Desplegar el proyecto en Github Pages en donde el portafolio sea la
+    página principal. (3 Puntos) <br />
+    2. Construir el portafolio utilizando por lo menos 3 componentes y 5 clases
+    de Bootstrap. (2 Puntos) <br />
+    3. Mostrar los desafíos anteriores con imágenes y enlaces a los repositorios
+    correspondientes. (3 Puntos) <br />
+    4. Forkear los proyectos de por lo menos 2 compañeros. (1 Punto) <br />
+    5. Hacer por lo menos 1 commit por cada proyecto forkeado. (1 Punto)
+    <br />
+    <br />
+    Consideraciones y recomendaciones <br />
+    Es posible también aportar a un proyecto vía un pull request, para lograrlo,
+    hay que hacer un fork del repositorio original, hacer los cambios y subirlos
+    en el repositorio forkeado y luego, desde la página del repositorio en
+    Github, hacer clic en pull request. Luego, llegará una notificación al
+    proyecto original para hacer un merge de esos cambios. Esto debe hacerse
+    adicionalmente (y no en lugar del punto 4 o 5) para obtener el puntaje del
+    desafío.
+  </p>
 </html>
