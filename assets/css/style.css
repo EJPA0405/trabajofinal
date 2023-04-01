@@ -1,5 +1,7 @@
 body {
+  background-color: black;
   font-family: "Raleway", sans-serif;
+  color: #a1a1a1;
 }
 
 #Header-Section {
@@ -11,4 +13,13 @@ body {
 
 .justify {
   text-align: justify;
+}
+.color {
+  color: #a1a1a1;
+}
+#Trabajos .image-top {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
